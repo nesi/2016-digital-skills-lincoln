@@ -1,6 +1,12 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org" target="_blank">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<p itemprop="description">This event provides an opportunity for all researchers to improve their computational lab skills through a number of hands-on training sessions. Training modules are offered by experienced researchers who are keen to share their knowledge and skills with members of their research communities.</p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">repository on Github</a> for more details =D</p>
+<p> Digital Skills for Research Training Week @ Lincoln is organised by several New Zealand research institutions:
+<a href="http://www.landcareresearch.co.nz/">Landcare Research</a>,
+<a href="http://www.agresearch.co.nz/">AgResearch</a>,
+<a href="http://www.plantandfood.co.nz/">Plant & Food Research</a>,
+<a href="http://www.lincoln.ac.nz/">Lincoln University</a>
+ and <a href="http://www.nesi.org.nz/">New Zealand eScience Infrastructure</a>. </p>
+
+<p> This event consists of two parts. The first one is the Software Carpentry workshop which will take place 17-18th October, 2016. This hands-on workshop takes full two days (see details below). The second part of this training event is an array of shorter training modules which are more domain-specific (please see the schedule below). You are welcome to sign up for any sessions you find useful. You can choose to attend only Software Carpentry workshop or only some of the sessions taking place between 19th and 21st October. However, please note that if you want to attend Software Carpentry workshop, we advise that you come for the full two days (Monday and Tuesday). </p>

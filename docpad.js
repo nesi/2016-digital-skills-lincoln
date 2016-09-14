@@ -7,33 +7,24 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Digital Skills for Research Training at Lincoln",
+      description: "This event provides an opportunity for all researchers to improve their computational lab skills through a number of hands-on training sessions. Training modules are offered by experienced researchers who are keen to share their knowledge and skills with their research communities.",
+      date: "October 17-21st, 2016",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+    //  #price: "free",
+      venue: "CRI offices",
+      address: "Gerald Street",
+      city: "Lincoln",
+      code: "7608",
+      country: "New Zealand"
+
     },
 
-    // The Call To Action button at the header,
-    // If you don't want this, just remove the callToAction property.
-    callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
-    },
-
-    // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
 
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
+      url: "http://nesi.github.io/2016-digital-skills-lincoln",
       googleanalytics: "UA-33656081-1"
     },
 
@@ -42,146 +33,278 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
+      'partners',
       'location',
       'speakers',
       'schedule',
-      'sponsors',
-      'partners'
-      // 'contact'
+      //'sponsors',
+
+      'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
       about: "About",
       location: "Location",
-      speakers: "Speakers",
+      speakers: "Sessions",
       schedule: "Schedule",
       sponsors: "Sponsors",
-      partners: "Partners",
+      partners: "Organisers",
       contact: "Contact"
     },
 
     // The entire schedule
     schedule: [
-      {
-        name: "Check-in / Breakfast",
-        time: "9h00"
-      },
-      {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
-        link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
-        },
-        presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
-        }
-      },
-      {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
-        link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
-        },
-        presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
-        }
-      },
-      {
-        name: "Lunch",
-        time: "12h00"
-      },
-      {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
-        link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
-        },
-        presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
-        }
-      },
-      {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
-      },
-      {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
-      }
-    ],
 
-    // List of Sponsors
-    sponsors: [
-      {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
+     {
+
+         //name: "Software Carpentry",
+         bio: "Software Carpentry is a hands on workshop helping researchers develop their computational lab skills.",
+         link:{
+           href: "http://software-carpentry.org/",
+           text: "Software Carpentry"
+         },
+         link:{
+           href: "https://apawlik.github.io/2016-10-17-lincoln/",
+           text: "Details and registration"
+         },
+
+       presentation: {
+        title: "Software Carpentry - day 1",
+        description: "Software Carpentry is a hands on workshop helping researchers develop their computational lab skills.",
+        time: "Monday 10am - 4:30 pm"
+       }
+      },
+
+
+
+     {
+         //name: "Software Carpentry",
+         bio: "Software Carpentry is a hands on workshop helping researchers develop their computational lab skills.",
+         link:{
+           href: "http://software-carpentry.org/",
+           text: "Software Carpentry"
+         },
+         link:{
+           href: "https://apawlik.github.io/2016-10-17-lincoln/",
+           text: "Details and registration"
+         },
+      presentation: {
+        title: "Software Carpentry - day 2",
+        description: "Software Carpentry is a hands on workshop helping researchers develop their computational lab skills.",
+        time: "Tuesday 10:15 am - 4:30 pm"
       }
-    ],
+   },
+
+
+{
+         //name: "Statistics with R",
+         bio: "Exploratory Data Analysis with R - part 1",
+       
+         link:{
+//           href: "https://apawlik.github.io/2016-10-17-lincoln/",
+           text: "Details and registration"
+         },
+      presentation: {
+        title: "Exploratory Data Analysis with R - part 1",
+        description: "Introduction do doing statistics with R.",
+        time: "Wednesday 10:00 am - 12:00 pm"
+      }
+   },
+
+
+
+{
+         //name: "Statistics with R",
+         bio: "Exploratory Data Analysis with R - part 2",
+       
+         link:{
+//           href: "https://apawlik.github.io/2016-10-17-lincoln/",
+           text: "Details and registration"
+         },
+      presentation: {
+        title: "Exploratory Data Analysis with R - part 2",
+        description: "Introducing R by Graphs",
+        time: "Wednesday 1:00 pm - 3:00 pm"
+      }
+   },
+
+
+
+ {
+       //name: "Genome assembly",
+       bio: "Genome assembly",
+       link:{
+         //href: "http://software-carpentry.org/",
+         //text: "Software Carpentry"
+       },
+       link:{
+         //href: "https://apawlik.github.io/2016-10-17-lincoln/",
+         text: "Details and registration"
+       },
+    presentation: {
+      title: "Genome Assembly module",
+      description: "",
+      time: "Wednesday,  Duration: 6 hrs"
+    }
+ },
+
+
+
+
+ {
+       //name: "Introduction to Bayesian Statistics",
+       bio: "Introduction to Bayesian Statistics",
+       link:{
+         //href: "https://apawlik.github.io/2016-10-17-lincoln/",
+         text: "Details and registration"
+       },
+    presentation: {
+      title: "Introduction to Bayesian Statistics",
+      description: "Introduction to Bayesian Statistics",
+      time: "Thursday,  Duration: 6 hrs"
+    }
+ },
+
+
+ {
+       //name: "Random Effect Models",
+       bio: "Random Effect Models",
+       link:{
+         //href: "https://apawlik.github.io/2016-10-17-lincoln/",
+         text: "Details and registration"
+       },
+    presentation: {
+      title: "Random Effect Models",
+      description: "Random Effect Models",
+      time: "Friday,  Duration: 4 hrs"
+    }
+ },
+
+
+ {
+       //name: "Random Effect Models",
+       bio: "Random Effect Models",
+       link:{
+         //href: "https://apawlik.github.io/2016-10-17-lincoln/",
+         text: "Details and registration"
+       },
+    presentation: {
+      title: "Random Effect Models",
+      description: "Random Effect Models",
+      time: "Friday,  Duration: 4 hrs"
+    }
+ },
+
+
+   {
+       bio: "How to start on NeSI HPC infrastructure. This session provides hands-on introduction to using NeSI-provided clusters.",
+       link:{
+         href: "http://www.nesi.org.nz/",
+         text: "New Zealand e-Science Infrastructure"
+       },
+       link:{
+        // href: "",
+         text: "Details and registration"
+       },
+    presentation: {
+      title: "Starting on NeSI HPC",
+      description: "Using High Performance Computing with NeSI. Duration: 3 h",
+      time: "TBA"
+    }
+ },
+
+
+
+ {
+     bio: "Intermediate version control with Git and GitHub.",
+     link:{
+      // href: "",
+       text: "Details and registration"
+     },
+  presentation: {
+    title: "Intermediate version control with Git and GitHub",
+    description: "This session builds on the top of the Software Carpentry version control module. We will cover topics such as branching, forking on GitHub and creating Pull Requests. Duration: 3-4 hours",
+    time: "TBA"
+  }
+},
+
+
+{
+    bio: "Research Data Management",
+    link:{
+  //    href: "http://www.nesi.org.nz/",
+  //    text: "New Zealand e-Science Infrastructure"
+    },
+    link:{
+     // href: "",
+      text: "Details and registration"
+    },
+ presentation: {
+   title: "Research Data Management Plans",
+   description: "Managing your research data - best practices. Duration: 2 h",
+   time: "TBA"
+ },
+},
+
+
+     {
+         //name: "Introduction to Python",
+         bio: "Developing software with Python.",
+                link:{
+           //href: "https://apawlik.github.io/2016-10-17-lincoln/",
+           text: "Details and registration"
+         },
+      presentation: {
+        title: "Developing software with Python",
+        description: "Essential Python for researchers.",
+        time: "TBA Duration: 3 hrs"
+      }
+   },
+
+
+
+  
+
+
+
+
+
+
+
+],
+
 
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "Landcare Research",
+        logo: "themes/yellow-swan/img/landcare.jpg",
+        url: "http://www.landcareresearch.co.nz/"
+      },
+
+      {
+        name: "Plant & Food Research",
+        logo: "themes/yellow-swan/img/pfr.png",
+        url: "http://www.plantandfood.co.nz/"
+      },
+
+      {
+        name: "AgResearch",
+        logo: "themes/yellow-swan/img/ag_research.png",
+        url: "http://www.agresearch.co.nz/"
+      },
+
+      {
+        name: "Lincoln University",
+        logo: "themes/yellow-swan/img/lincoln.jpg",
+        url: "http://www.lincoln.ac.nz/"
+      },
+
+      {
+        name: "NeSI",
+        logo: "themes/yellow-swan/img/nesi.png",
+        url: "http://www.nesi.org.nz/"
       }
     ],
 
